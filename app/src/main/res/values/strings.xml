@@ -1,0 +1,8 @@
+<resources>
+<string name="app_name">Planet</string>
+<string name="merupakan_planet_yang_dapat_dihuni_manusia">Merupakan Planet yang dapat dihuni manusia</string>
+<string name="jarak_planet_dari_matahari_4_5_miliar_kilometer">Jarak planet dari matahari : 4,5 miliar kilometer</string>
+<string name="see_detail">See detail</string>
+<string name="bumi">Bumi</string>
+<string name="merupakan_planet_terdingin_dengan_rata_rata_suhu_terendah_dalam_tata_surya">merupakan planet terdingin dengan rata-rata suhu terendah dalam tata surya</string>
+</resources>

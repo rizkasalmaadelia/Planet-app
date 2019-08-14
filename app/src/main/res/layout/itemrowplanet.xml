@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Black">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/planetpic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            app:civ_fill_color="@color/White"/>
+        <TextView
+            android:id="@+id/textplanet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:layout_marginTop="15dp"
+            android:textColor="@color/White"
+            android:layout_toRightOf="@+id/planetpic"
+            android:layout_toEndOf="@+id/planetpic"
+            tools:text="Merkurius"/>
+        <TextView
+            android:id="@+id/deskripsi"
+            android:textColor="@color/White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_below="@id/textplanet"
+            android:layout_toRightOf="@+id/planetpic"
+            android:layout_toEndOf="@+id/planetpic"
+            android:text="@string/merupakan_planet_terdingin_dengan_rata_rata_suhu_terendah_dalam_tata_surya"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jarakdepan"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/coba"
+            android:text="halo"
+            android:textColor="@color/White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
